@@ -1,0 +1,938 @@
+body {
+	color: #000;
+    margin: 0;
+    font-family: "Akrobat", Sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+
+}
+
+.main{
+    
+}
+
+.navbar{
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 12;
+}
+
+.about_middle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px
+}
+
+#mid{
+    width: 80%;
+    height: 275px;
+    background: url('https://sdu.edu.kz/wp-content/uploads/2022/08/sdufon.png') no-repeat center top / cover ;
+    border-radius: 30px;
+}
+
+.img_line{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    margin-top: 200px;
+    color: white;
+    background-color: #000;
+    opacity: 0.7;
+    
+}
+
+.img_line b{
+    margin-left: 50px;
+}
+
+#midlow{
+    display: flex;
+}
+
+.midlow_buttons{
+    display: flex;
+    margin-left: 40px;
+}
+
+.midlow_button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 48px;
+    background-color:#082673;
+    border-bottom-left-radius: 20px;   
+}
+
+.midlow_button1RU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 48px;
+    background-color:#082673;
+    border-bottom-left-radius: 20px;
+}
+
+.midlow_button1:hover{
+    color: #082673;
+    background-color:white;
+}
+
+.midlow_button1RU:hover{
+    color: #082673;
+    background-color:white;
+}
+
+.midlow_button1 a:hover{
+    color: #082673;
+}
+
+.midlow_button1RU a:hover{
+    color: #082673;
+}
+
+.midlow_button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+    background-color:#082673;
+}
+
+.midlow_button2RU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 48px;
+    background-color:#082673;
+}
+
+.midlow_button2RU:hover{
+    color: #082673;
+    background-color:white;
+}
+
+.midlow_button2:hover{
+    color: #082673;
+    background-color:white;
+}
+
+.midlow_button2 a:hover{
+    color: #082673;
+}
+
+.midlow_button3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 48px;
+    background-color:#082673;
+    border-bottom-right-radius: 20px;
+}
+
+.midlow_button3:hover{
+    color: #082673;
+    background-color:white;
+}
+
+.midlow_button3 a:hover{
+    color: #082673;
+}
+
+.text{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+
+.text b{
+    color: #082673;
+}
+
+.photoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about_main_content{
+    width: 80%;
+}
+
+.navbar2{
+    margin-top: 0;
+}
+
+.none_top1{
+    width: 10%;
+    height: auto;
+}
+
+.none_top2{
+    width: 10%;
+    height: auto;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border: 2px solid #082673;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.about_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 75px;
+    width: 850px;
+    height: 75px;
+    background-color: #082673;
+    color: white;
+    font-size: 30px;
+    border-top-left-radius: 50px;
+}
+
+.line{
+    width: 100%;
+    height: 20px;
+    background-color: #082673;
+    margin-bottom: 50px;
+}
+
+#contact_info a{
+    height: 45px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.nav{
+    display: flex;
+    width: 80%;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.navbar_top{
+    width: inherit;
+    height: 45px;
+    display: flex;
+    background-color: #9e2629;
+    margin-bottom: 1px;
+}
+
+#region{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.navbar_top2{
+    width: inherit;
+    height: 45px;
+    display: flex;
+    background-color: #082673;
+    margin-bottom: 1px;
+}
+
+.navbar_menu1{
+    height: 45px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    font-size: small;
+}
+
+.navbar_menu2{
+    height: 45px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    font-size: small;
+}
+
+.navbar_menu2 a{
+    margin-right: 30px;
+    color: gray;
+    transition: all .2s ease-in-out;
+}
+
+.navbar_menu2 a:hover{
+    color: #082673;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar_menu1 a{
+    margin-right: 50px;
+    color: white;
+}
+
+.lang{
+    width: 50px;
+    height: 45px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    margin-left: 50px;
+    font-size: small;
+}
+
+.lang a{
+    margin-right: 20px;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.lang a:hover{
+    color: burlywood;
+}
+
+.navbar_bottom{
+    height: 100px;
+    background-color: #082673;
+    display: flex;
+}
+
+.navbar_bottom2{
+    display: flex
+}
+
+.nav_middle{
+    display: flex;
+}
+
+.navbar_bottom-main{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+}
+
+.sdulogo{
+    border-right: 1px solid white;
+}
+
+.sdu{
+    margin-left: 10px;
+    color: white;
+    height: 100px;
+    font-size:x-large;
+}
+
+.buttons1{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.donate1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+    display: none;
+}
+
+
+.search-box{
+    display: flex;
+    align-items: center;
+}
+
+.search-txt{
+    width: 264px;
+    height: 35px;
+}
+
+.search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    background-color: #00154c;
+}
+
+.banner{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    background: url('https://i9.photo.2gis.com/images/branch/0/30258560049017170_e037.jpg') no-repeat center top / cover ;
+    align-items: center;
+}
+
+.main_content_top{
+    display: flex;
+    width: 80%;
+    height: 215px;
+    flex-direction: column;
+}
+
+.left{
+    height: 200px;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.words{
+    width: inherit;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+}
+
+.intro_button_div{
+    width: 150px;
+    height: 30px;
+    margin-bottom: 100px;
+}
+
+.intro_button{
+    display: flex;
+    width: 150px;
+    height: 44px;
+    border-radius: 35px;
+    background-color: white;
+    align-items: center;
+}
+.intro_video{
+    margin-left: 10px;
+    color: #000;
+}
+
+.play{
+    width: 45px;
+    height: 45px;
+}
+
+.articles1{
+    display: flex;
+}
+
+.left_art{
+    width: 720px;
+    height: 410px;
+}
+
+.title{
+    margin-top: 20px;
+    height: 35px;
+    width: 300px;
+    font-size: 30px;
+    color: #933;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+.title a{
+    color: #933;
+}
+
+.missions{
+    display: flex;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.tables{
+    width: 300px;
+}
+
+.tables tr td{
+    padding-left: 5px;
+}
+
+.right_art{
+    margin-top: 50px;
+    width: 410px;
+}
+
+.vision{
+    margin-bottom: 30px;
+}
+
+.events_img{
+    margin-top: 10px;
+}
+
+.news{
+    width: 80%;
+}
+
+.news_img{
+    display: flex;
+    margin-top: 10px;
+}
+
+.news_img img{
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.arrows{
+    width: 55px;
+    background-color: #9e2629;
+}
+
+.hire_box{
+    margin-top: 50px;
+    display: flex;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.box h2{
+    font-size: 50px;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e2629;
+    width: 80%;
+    height: 260px;
+}
+
+.footer1{
+    display: flex;
+    background-color: #082673;
+    margin-bottom: 2px;
+}
+
+.footer_box1{
+    height: 94px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+}
+
+.footer2{
+    height: 430px;
+    background-color: #9e2629;
+    display: flex;
+}
+
+.footer2_about{
+    height: 430px;
+    background-color: #082673;
+    display: flex;
+}
+
+.footer2_top{
+    display: flex;
+}
+
+.footer_left{
+    display: flex; 
+    width: 1000px;
+}
+
+.social_media a{
+    opacity: 0.5;
+    margin-right: 10px;
+}
+
+.social_media2{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    margin-left: 50px
+}
+
+.social_media2 a{
+    margin-left: 15px;
+}
+
+.social_media a:hover{
+    opacity: 1;
+}
+
+.map_of_site{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.map_of_site ul li{
+    font-size: small;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+#one{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+
+
+.map_title{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.footer_right{
+    margin-top: 50px;
+}
+
+.search-box2{
+    display: flex;
+    align-items: center;
+}
+.search-box3{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.search-button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 50px;
+    padding: 8px;
+    margin-left: 10px;
+    background-color: #490013;
+}
+
+.search-button3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+
+    background-color: #490013;
+}
+
+#newsletter{
+    font-size: x-large;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.search-txt2{
+    width: 130px;
+    height: 40px;
+}
+
+.search-txt3{
+    width: 100px;
+    height: 20px;
+}
+
+.hr2{
+    margin-top: 30px;
+    color: white;
+    opacity: 0.3;
+}
+
+.footer2_bottom{
+    display: flex;
+    margin-top: 20px;
+    
+    justify-content: space-between;
+}
+
+.word_bottom{
+    font-size: small;
+    color: white;
+    opacity: 0.3;
+}
+
+.icon{
+    position: sticky;
+    z-index: 12;
+}
+
+.map_box{
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+.contacts2{
+    display: flex;
+    align-items: center;
+}
+
+.title_contact{
+    font-size: 30px;
+    color: #9e2629;
+    width: 170px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.getintouch{
+    margin-left: 50px;
+}
+
+.info{
+    display: flex;
+}
+
+.info1{
+    width: 250px;
+    margin-right: 30px;
+}
+
+.info1 b{
+    color: #9e2629;
+    font-size: 15px;
+}
+
+.info2{
+    width: 270px;
+}
+
+.phone b{
+    color: #9e2629;
+}
+
+.phone img{
+    margin-right: 15px;
+}
+
+
+.contact_icons{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.map_placeholder{
+    display: flex;
+}
+
+.map_placeholder div img{
+    margin-right: 10px;
+}
+
+.social_icons a{
+    opacity: 0.3;
+}
+
+.social_icons a:hover{
+    opacity: 1;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, .1);
+}
+
+
+
+@media only screen and (max-width: 760px){
+
+    .main{
+        text-align: center;
+    }
+    .sdu{
+        display: none;
+    }
+
+    .search-txt{
+        display: none;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .sdulogo{
+        border: none;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .buttons1{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .words{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .intro_button_div{
+        margin-top: 50px;
+    }
+
+    .articles1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vision{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mission_statement{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .articles1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .news_img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .hire_box{
+        background-color: #9e2629;
+    }
+
+    .footer2_top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_right{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .search-txt2{
+        width: 400px;
+    }
+
+    .search-txt3{
+        width: 100px;
+        height: 20px;
+    }
+
+    .hr2{
+        display: none;
+    }
+
+    .words{
+        font-size: medium;
+    }
+
+    .description{
+        text-align: center;
+    }
+
+    body{
+        margin: 0px auto
+    }
+
+    .donate{
+        display: none;
+    }
+
+    .donate1{
+        display: flex;
+    }
+}
